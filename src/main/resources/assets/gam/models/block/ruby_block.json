@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "gam:blocks/ruby_block"
+   }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "PPP",
+        " S ",
+        " S "
+    ],
+   
+    "key":
+    {
+        "P":
+        {
+            "item": "gam:phosphophyllite"
+        },
+        
+         "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gam:phosphophyllite_pickaxe",
+        "count": 1
+    }
+}

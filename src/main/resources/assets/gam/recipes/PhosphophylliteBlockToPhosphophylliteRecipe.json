@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "gam:phosphophyllite_block"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "gam:phosphophyllite",
+        "count": 9
+    }
+}

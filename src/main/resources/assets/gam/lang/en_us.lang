@@ -1,0 +1,105 @@
+
+//Items
+item.ruby.name=Ruby
+item.sapphire.name=Sapphire
+item.topaz.name=Topaz
+item.amethyst.name=Amethyst
+item.phosphophyllite.name=Phosphophyllite
+item.rose_quartz.name=Rose Quartz
+
+//Ores
+tile.amethyst_ore.name=Amethyst Ore
+tile.ruby_ore.name=Ruby Ore
+tile.sapphire_ore.name=Sapphire Ore
+tile.topaz_ore.name=Topaz Ore
+tile.phosphophyllite_ore.name=Phosphophyllite Ore
+tile.rose_quartz_ore.name=Rose Quartz Ore
+
+//Block Of Gems
+tile.ruby_block.name=Block of Ruby
+tile.sapphire_block.name=Block of Sapphire
+tile.topaz_block.name=Block of Topaz
+tile.amethyst_block.name=Block of Amethyst
+tile.phosphophyllite_block.name=Block of Phosphophyllite
+tile.rose_quartz_block.name=Block of Rose Quartz
+
+//Rose Quartz Tools
+item.rose_quartz_sword.name=Rose Quartz Sword
+item.rose_quartz_pickaxe.name=Rose Quartz Pickaxe
+item.rose_quartz_shovel.name=Rose Quartz Shovel
+item.rose_quartz_axe.name=Rose Quartz Axe
+item.rose_quartz_hoe.name=Rose Quartz Hoe
+
+//Rose Quartz Armour
+item.rose_quartz_helmet.name=Rose Quartz Helmet
+item.rose_quartz_chestplate.name=Rose Quartz Chestplate
+item.rose_quartz_leggings.name=Rose Quartz Leggings
+item.rose_quartz_boots.name=Rose Quartz Boots
+
+//Phosphophyllite Tools
+item.phosphophyllite_sword.name=Phosphophyllite Sword
+item.phosphophyllite_pickaxe.name=Phosphophyllite Pickaxe
+item.phosphophyllite_shovel.name=Phosphophyllite Shovel
+item.phosphophyllite_axe.name=Phosphophyllite Axe
+item.phosphophyllite_hoe.name=Phosphophyllite Hoe
+
+//Phosphophyllite Armour
+item.phosphophyllite_helmet.name=Phosphophyllite Helmet
+item.phosphophyllite_chestplate.name=Phosphophyllite Chestplate
+item.phosphophyllite_leggings.name=Phosphophyllite Leggings
+item.phosphophyllite_boots.name=Phosphophyllite Boots
+
+//Ruby Tools
+item.ruby_sword.name=Ruby Sword
+item.ruby_pickaxe.name=Ruby Pickaxe
+item.ruby_shovel.name=Ruby Shovel
+item.ruby_axe.name=Ruby Axe
+item.ruby_hoe.name=Ruby Hoe
+
+//Ruby Armour
+item.ruby_helmet.name=Ruby Helmet
+item.ruby_chestplate.name=Ruby Chestplate
+item.ruby_leggings.name=Ruby Leggings
+item.ruby_boots.name=Ruby Boots
+
+//Sapphire Tools
+item.sapphire_sword.name=Sapphire Sword
+item.sapphire_pickaxe.name=Sapphire Pickaxe
+item.sapphire_shovel.name=Sapphire Shovel
+item.sapphire_axe.name=Sapphire Axe
+item.sapphire_hoe.name=Sapphire Hoe
+
+//Sapphire Tools
+item.sapphire_helmet.name=Sapphire Helmet
+item.sapphire_chestplate.name=Sapphire Chestplate
+item.sapphire_leggings.name=Sapphire Leggings
+item.sapphire_boots.name=Sapphire Boots
+
+//Amethyst Tools
+item.amethyst_sword.name=Amethyst Sword
+item.amethyst_pickaxe.name=Amethyst Pickaxe
+item.amethyst_shovel.name=Amethyst Shovel
+item.amethyst_axe.name=Amethyst Axe
+item.amethyst_hoe.name=Amethyst Hoe
+
+//Amethyst Armour
+item.amethyst_boots.name=Amethyst Boots
+item.amethyst_leggings.name=Amethyst Leggings
+item.amethyst_chestplate.name=Amethyst Chestplate
+item.amethyst_helmet.name=Amethyst Helmet
+
+//Topaz Tools
+item.topaz_sword.name=Topaz Sword
+item.topaz_pickaxe.name=Topaz Pickaxe
+item.topaz_shovel.name=Topaz Shovel
+item.topaz_axe.name=Topaz Axe
+item.topaz_hoe.name=Topaz Hoe
+
+//Topaz Armour
+item.topaz_helmet.name=Topaz Helmet
+item.topaz_chestplate.name=Topaz Chestplate
+item.topaz_leggings.name=Topaz Leggings
+item.topaz_boots.name=Topaz Boots
+
+//Creative Tabs
+itemGroup.gam=GAM

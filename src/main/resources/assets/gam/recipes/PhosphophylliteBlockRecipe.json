@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "PPP",
+        "PPP",
+        "PPP"
+    ],
+   
+    "key":
+    {
+        "P":
+        {
+            "item": "gam:phosphophyllite"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gam:phosphophyllite_block",
+        "count": 1
+    }
+}

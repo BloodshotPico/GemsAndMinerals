@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "AA ",
+        " S ",
+        " S "
+    ],
+   
+    "key":
+    {
+        "A":
+        {
+            "item": "gam:amethyst"
+        },
+        
+         "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gam:amethyst_hoe",
+        "count": 1
+    }
+}

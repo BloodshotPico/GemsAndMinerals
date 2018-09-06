@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "AAA",
+        "A A",
+        "   "
+    ],
+   
+    "key":
+    {
+        "A":
+        {
+            "item": "gam:amethyst"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gam:amethyst_helmet",
+        "count": 1
+    }
+}

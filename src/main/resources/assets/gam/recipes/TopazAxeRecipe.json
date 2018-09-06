@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "TT ",
+        "TS ",
+        " S "
+    ],
+   
+    "key":
+    {
+        "T":
+        {
+            "item": "gam:topaz"
+        },
+        
+         "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gam:topaz_axe",
+        "count": 1
+    }
+}

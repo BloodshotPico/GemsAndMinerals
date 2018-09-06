@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        " P ",
+        " P ",
+        " S "
+    ],
+   
+    "key":
+    {
+        "P":
+        {
+            "item": "gam:phosphophyllite"
+        },
+        
+         "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gam:phosphophyllite_sword",
+        "count": 1
+    }
+}

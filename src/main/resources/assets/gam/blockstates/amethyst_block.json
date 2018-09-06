@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "gam:amethyst_block" }
+    }
+}

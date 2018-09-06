@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "SSS",
+        "SSS",
+        "SSS"
+    ],
+   
+    "key":
+    {
+        "S":
+        {
+            "item": "gam:sapphire"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gam:sapphire_block",
+        "count": 1
+    }
+}

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "gam",
+  "name": "Gems And Minerals",
+  "description": "A mod that expands upon Minecrafts gems and minerals.",
+  "version": "0.0.2014",
+  "mcversion": "1.12.2",
+  "url": "https://minecraft.curseforge.com/projects/gems-and-minerals",
+  "updateUrl": "",
+  "authorList": ["Bloodshot_pico"],
+  "credits": "All the modders who inspired me to start this learning process.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
