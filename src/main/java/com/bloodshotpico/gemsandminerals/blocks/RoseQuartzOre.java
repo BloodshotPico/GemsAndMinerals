@@ -18,7 +18,7 @@ public class RoseQuartzOre extends BlockBase
 		setSoundType(SoundType.STONE);
 		setHardness(5.0F);
 		setResistance(30.0F);
-		setHarvestLevel("pickaxe", 7);
+		setHarvestLevel("pickaxe", 6);
 		
 		//Sets the Light Level (Makes the block emit light)
 		//setLightLevel(1.0F);

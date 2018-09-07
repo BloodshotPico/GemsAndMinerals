@@ -18,7 +18,7 @@ public class TopazOre extends BlockBase
 		setSoundType(SoundType.STONE);
 		setHardness(5.0F);
 		setResistance(30.0F);
-		setHarvestLevel("pickaxe", 4);
+		setHarvestLevel("pickaxe", 3);
 		
 		//Sets the Light Level (Makes the block emit light)
 		//setLightLevel(1.0F);

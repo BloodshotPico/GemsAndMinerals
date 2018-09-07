@@ -25,12 +25,12 @@ public class ModBlocks
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
 	//Ores
-	public static final Block RUBY_ORE = new RubyOre("ruby_ore", Material.GROUND);
-	public static final Block SAPPHIRE_ORE = new SapphireOre("sapphire_ore", Material.GROUND);
-	public static final Block TOPAZ_ORE = new TopazOre("topaz_ore", Material.GROUND);
-	public static final Block AMETHYST_ORE = new AmethystOre("amethyst_ore", Material.GROUND);
-	public static final Block PHOSPHOPHYLLITE_ORE = new PhosphophylliteOre("phosphophyllite_ore", Material.GROUND);
-	public static final Block ROSE_QUARTZ_ORE = new RoseQuartzOre("rose_quartz_ore", Material.GROUND);
+	public static final Block RUBY_ORE = new RubyOre("ruby_ore", Material.ROCK);
+	public static final Block SAPPHIRE_ORE = new SapphireOre("sapphire_ore", Material.ROCK);
+	public static final Block TOPAZ_ORE = new TopazOre("topaz_ore", Material.ROCK);
+	public static final Block AMETHYST_ORE = new AmethystOre("amethyst_ore", Material.ROCK);
+	public static final Block PHOSPHOPHYLLITE_ORE = new PhosphophylliteOre("phosphophyllite_ore", Material.ROCK);
+	public static final Block ROSE_QUARTZ_ORE = new RoseQuartzOre("rose_quartz_ore", Material.ROCK);
 	
 	//Gem Blocks
 	public static final Block RUBY_BLOCK = new RubyBlock("ruby_block", Material.IRON);
