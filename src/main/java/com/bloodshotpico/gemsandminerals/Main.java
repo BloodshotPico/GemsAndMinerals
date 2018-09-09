@@ -3,8 +3,10 @@ package com.bloodshotpico.gemsandminerals;
 import com.bloodshotpico.gemsandminerals.init.ModRecipes;
 import com.bloodshotpico.gemsandminerals.proxy.CommonProxy;
 import com.bloodshotpico.gemsandminerals.tabs.MainTab;
+import com.bloodshotpico.gemsandminerals.tabs.BlocksTab;
 import com.bloodshotpico.gemsandminerals.tabs.GemsTab;
 import com.bloodshotpico.gemsandminerals.tabs.CombatTab;
+import com.bloodshotpico.gemsandminerals.tabs.ToolsTab;
 import com.bloodshotpico.gemsandminerals.util.Reference;
 import com.bloodshotpico.gemsandminerals.world.ModWorldGen;
 
@@ -28,8 +30,10 @@ public class Main
 	public static CommonProxy proxy;
 	
 	public static CreativeTabs MainTab = new MainTab();
+	public static CreativeTabs BlocksTab = new BlocksTab();
 	public static CreativeTabs GemsTab = new GemsTab();
 	public static CreativeTabs ArmourTab = new CombatTab();
+	public static CreativeTabs ToolsTab = new ToolsTab();
 	
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)

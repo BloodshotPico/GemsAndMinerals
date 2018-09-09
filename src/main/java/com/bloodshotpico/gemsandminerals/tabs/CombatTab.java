@@ -9,7 +9,7 @@ public class CombatTab extends CreativeTabs
 {
 	public CombatTab() 
 	{
-		super("gamarmour");
+		super("gamcombat");
 	}
 
 	@Override
