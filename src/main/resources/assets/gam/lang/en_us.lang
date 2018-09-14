@@ -102,4 +102,8 @@ item.topaz_leggings.name=Topaz Leggings
 item.topaz_boots.name=Topaz Boots
 
 //Creative Tabs
-itemGroup.gam=GAM
+itemGroup.gamores=GAM Ores
+itemGroup.gamblocks=GAM Blocks
+itemGroup.gamgems=GAM Gems
+itemGroup.gamcombat=GAM Combat
+itemGroup.gamtools=GAM Tools

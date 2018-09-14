@@ -32,7 +32,7 @@ public class Main
 	public static CreativeTabs MainTab = new MainTab();
 	public static CreativeTabs BlocksTab = new BlocksTab();
 	public static CreativeTabs GemsTab = new GemsTab();
-	public static CreativeTabs ArmourTab = new CombatTab();
+	public static CreativeTabs CombatTab = new CombatTab();
 	public static CreativeTabs ToolsTab = new ToolsTab();
 	
 	@EventHandler

@@ -2,6 +2,7 @@ package com.bloodshotpico.gemsandminerals.blocks;
 
 import java.util.Random;
 
+import com.bloodshotpico.gemsandminerals.Main;
 import com.bloodshotpico.gemsandminerals.init.ModItems;
 
 import net.minecraft.block.SoundType;
@@ -19,6 +20,7 @@ public class RubyOre extends BlockBase
 		setHardness(5.0F);
 		setResistance(30.0F);
 		setHarvestLevel("pickaxe", 3);
+		setCreativeTab(Main.MainTab);
 		
 		//Sets the Light Level (Makes the block emit light)
 		//setLightLevel(1.0F);

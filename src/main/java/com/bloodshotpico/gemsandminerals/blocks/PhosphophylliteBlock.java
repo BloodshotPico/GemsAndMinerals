@@ -1,5 +1,7 @@
 package com.bloodshotpico.gemsandminerals.blocks;
 
+import com.bloodshotpico.gemsandminerals.Main;
+
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
@@ -13,6 +15,7 @@ public class PhosphophylliteBlock extends BlockBase
 		setHardness(5.0F);
 		setResistance(30.0F);
 		setHarvestLevel("pickaxe", 3);
+		setCreativeTab(Main.BlocksTab);
 		
 		//Sets the Light Level (Makes the block emit light)
 		//setLightLevel(1.0F);
