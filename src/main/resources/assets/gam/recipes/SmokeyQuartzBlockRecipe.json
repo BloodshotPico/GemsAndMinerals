@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "QQQ",
+        "QQQ",
+        "QQQ"
+    ],
+   
+    "key":
+    {
+        "Q":
+        {
+            "item": "gam:smokey_quartz"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gam:smokey_quartz_block",
+        "count": 1
+    }
+}

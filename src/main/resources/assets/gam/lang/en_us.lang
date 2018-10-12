@@ -6,6 +6,7 @@ item.topaz.name=Topaz
 item.amethyst.name=Amethyst
 item.phosphophyllite.name=Phosphophyllite
 item.rose_quartz.name=Rose Quartz
+item.smokey_quartz.name=Smokey Quartz
 
 //Ores
 tile.amethyst_ore.name=Amethyst Ore
@@ -14,6 +15,7 @@ tile.sapphire_ore.name=Sapphire Ore
 tile.topaz_ore.name=Topaz Ore
 tile.phosphophyllite_ore.name=Phosphophyllite Ore
 tile.rose_quartz_ore.name=Rose Quartz Ore
+tile.smokey_quartz_ore.name=Smokey Quartz Ore
 
 //Block Of Gems
 tile.ruby_block.name=Block of Ruby
@@ -22,6 +24,21 @@ tile.topaz_block.name=Block of Topaz
 tile.amethyst_block.name=Block of Amethyst
 tile.phosphophyllite_block.name=Block of Phosphophyllite
 tile.rose_quartz_block.name=Block of Rose Quartz
+tile.smokey_quartz_block.name=Block of Smokey Quartz
+
+//Smokey Quartz Tools
+item.smokey_quartz_sword.name=Smokey Quartz Sword
+item.smokey_quartz_pickaxe.name=Smokey Quartz Pickaxe
+item.smokey_quartz_shovel.name=Smokey Quartz Shovel
+item.smokey_quartz_axe.name=Smokey Quartz Axe
+item.smokey_quartz_hoe.name=Smokey Quartz Hoe
+
+//Smokey Quartz Armour
+item.smokey_quartz_helmet.name=Smokey Quartz Helmet
+item.smokey_quartz_chestplate.name=Smokey Quartz Chestplate
+item.smokey_quartz_leggings.name=Smokey Quartz Leggings
+item.smokey_quartz_boots.name=Smokey Quartz Boots
+
 
 //Rose Quartz Tools
 item.rose_quartz_sword.name=Rose Quartz Sword

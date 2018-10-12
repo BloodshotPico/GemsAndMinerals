@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "gam:smokey_quartz_block"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "gam:smokey_quartz",
+        "count": 9
+    }
+}

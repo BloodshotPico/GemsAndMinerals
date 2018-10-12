@@ -39,6 +39,7 @@ public class ModItems
 	
 	//Tier 3 Tool Materials   (MaterialName, HarvestLevel, Durability, Efficiency, Damage, Enchantability)
 	public static final ToolMaterial MATERIAL_ROSE_QUARTZ = EnumHelper.addToolMaterial("material_rose_quartz", 7, 3321, 8.0F, 6.0F, 28);
+	public static final ToolMaterial MATERIAL_SMOKEY_QUARTZ = EnumHelper.addToolMaterial("material_smokey_quartz", 7, 3259, 8.4F, 4.0F, 28);
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	//Tier 1 Armor Materials (Name, TextureName, Durability, ReductionAmounts, Enchantability, SoundOnEquip, Toughness)
@@ -49,7 +50,7 @@ public class ModItems
 	public static final ArmorMaterial ARMOR_MATERIAL_AMETHYST = EnumHelper.addArmorMaterial("armor_material_amethyst", Reference.MOD_ID + ":amethyst", 14,
 			new int[] {3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0F);
 	public static final ArmorMaterial ARMOR_MATERIAL_TOPAZ = EnumHelper.addArmorMaterial("armor_material_topaz", Reference.MOD_ID + ":topaz", 14,
-			new int[] {3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0F);
+			new int[] {3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
 	
 	//Tier 2 Armor Materials (Name, TextureName, Durability, ReductionAmounts, Enchantability, SoundOnEquip, Toughness)
 	public static final ArmorMaterial ARMOR_MATERIAL_PHOSPHOPHYLLITE = EnumHelper.addArmorMaterial("armor_material_phosphophyllite", Reference.MOD_ID + ":phosphophyllite", 18,
@@ -57,7 +58,9 @@ public class ModItems
 	
 	//Tier 3 Armor Materials (Name, TextureName, Durability, ReductionAmounts, Enchantability, SoundOnEquip, Toughness)
 	public static final ArmorMaterial ARMOR_MATERIAL_ROSE_QUARTZ = EnumHelper.addArmorMaterial("armor_material_rose_quartz", Reference.MOD_ID + ":rose_quartz", 14,
-			new int[] {3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0F);
+			new int[] {3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0F);
+	public static final ArmorMaterial ARMOR_MATERIAL_SMOKEY_QUARTZ = EnumHelper.addArmorMaterial("armor_material_smokey_quartz", Reference.MOD_ID + ":smokey_quartz", 15,
+			new int[] {3, 7, 9, 4}, 14, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 10.0F);
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	//Gems
@@ -67,6 +70,7 @@ public class ModItems
 	public static final Item AMETHYST = new ItemBase("amethyst");
 	public static final Item PHOSPHOPHYLLITE = new ItemBase("phosphophyllite");
 	public static final Item ROSE_QUARTZ = new ItemBase("rose_quartz");
+	public static final Item SMOKEY_QUARTZ = new ItemBase("smokey_quartz");
 	
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//Armour
@@ -106,6 +110,12 @@ public class ModItems
 	public static final Item ROSE_QUARTZ_CHESTPLATE = new ArmorBase("rose_quartz_chestplate", ARMOR_MATERIAL_ROSE_QUARTZ, 1, EntityEquipmentSlot.CHEST);
 	public static final Item ROSE_QUARTZ_LEGGINGS = new ArmorBase("rose_quartz_leggings", ARMOR_MATERIAL_ROSE_QUARTZ, 2, EntityEquipmentSlot.LEGS);
 	public static final Item ROSE_QUARTZ_BOOTS = new ArmorBase("rose_quartz_boots", ARMOR_MATERIAL_ROSE_QUARTZ, 1, EntityEquipmentSlot.FEET);
+	
+	//Rose Quartz Armour
+	public static final Item SMOKEY_QUARTZ_HELMET = new ArmorBase("smokey_quartz_helmet", ARMOR_MATERIAL_SMOKEY_QUARTZ, 1, EntityEquipmentSlot.HEAD);
+	public static final Item SMOKEY_QUARTZ_CHESTPLATE = new ArmorBase("smokey_quartz_chestplate", ARMOR_MATERIAL_SMOKEY_QUARTZ, 1, EntityEquipmentSlot.CHEST);
+	public static final Item SMOKEY_QUARTZ_LEGGINGS = new ArmorBase("smokey_quartz_leggings", ARMOR_MATERIAL_SMOKEY_QUARTZ, 2, EntityEquipmentSlot.LEGS);
+	public static final Item SMOKEY_QUARTZ_BOOTS = new ArmorBase("smokey_quartz_boots", ARMOR_MATERIAL_SMOKEY_QUARTZ, 1, EntityEquipmentSlot.FEET);
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -152,5 +162,12 @@ public class ModItems
 	public static final ItemPickaxe ROSE_QUARTZ_PICKAXE = new ToolPickaxe("rose_quartz_pickaxe", MATERIAL_ROSE_QUARTZ);
 	public static final ItemAxe ROSE_QUARTZ_AXE = new ToolAxe("rose_quartz_axe", MATERIAL_ROSE_QUARTZ);
 	public static final ItemHoe ROSE_QUARTZ_HOE = new ToolHoe("rose_quartz_hoe", MATERIAL_ROSE_QUARTZ);
+	
+	//Smokey Quartz Tools
+	public static final ItemSword SMOKEY_QUARTZ_SWORD = new ToolSword("smokey_quartz_sword", MATERIAL_SMOKEY_QUARTZ);
+	public static final ItemSpade SMOKEY_QUARTZ_SHOVEL = new ToolSpade("smokey_quartz_shovel", MATERIAL_SMOKEY_QUARTZ);
+	public static final ItemPickaxe SMOKEY_QUARTZ_PICKAXE = new ToolPickaxe("smokey_quartz_pickaxe", MATERIAL_SMOKEY_QUARTZ);
+	public static final ItemAxe SMOKEY_QUARTZ_AXE = new ToolAxe("smokey_quartz_axe", MATERIAL_SMOKEY_QUARTZ);
+	public static final ItemHoe SMOKEY_QUARTZ_HOW = new ToolHoe("smokey_quartz_hoe", MATERIAL_SMOKEY_QUARTZ);
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 }
