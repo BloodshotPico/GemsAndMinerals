@@ -39,6 +39,11 @@ public class ModWorldGen implements IWorldGenerator
 		
 		//Tier 3 Ores
 		generateOre(ModBlocks.ROSE_QUARTZ_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 1, 9, random.nextInt(3) + 1, 9);
+		generateOre(ModBlocks.SMOKEY_QUARTZ_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 1, 9, random.nextInt(3) + 1, 9);
+		
+		//Tier 4 Ores
+		generateOre(ModBlocks.ABERNATHYITE_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 30, 34, random.nextInt(3) + 2, 5);
+		generateOre(ModBlocks.ABHURITE_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 24, 28, random.nextInt(3) + 1, 7);
 	}
 	
 	private void generateOre(IBlockState ore, World world, Random random, int x, int z, int minY, int maxY, int size, int chances) 

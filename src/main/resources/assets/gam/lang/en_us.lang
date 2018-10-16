@@ -1,5 +1,5 @@
 
-//Items
+//Gems
 item.ruby.name=Ruby
 item.sapphire.name=Sapphire
 item.topaz.name=Topaz
@@ -7,6 +7,12 @@ item.amethyst.name=Amethyst
 item.phosphophyllite.name=Phosphophyllite
 item.rose_quartz.name=Rose Quartz
 item.smokey_quartz.name=Smokey Quartz
+item.abernathyite.name=Abernathyite
+item.abhurite.name=Abhurite
+
+//Dusts
+item.abernathyite_dust.name=Abernathyite Dust
+item.abhurite_dust.name=Abhurite Dust
 
 //Ores
 tile.amethyst_ore.name=Amethyst Ore
@@ -16,6 +22,8 @@ tile.topaz_ore.name=Topaz Ore
 tile.phosphophyllite_ore.name=Phosphophyllite Ore
 tile.rose_quartz_ore.name=Rose Quartz Ore
 tile.smokey_quartz_ore.name=Smokey Quartz Ore
+tile.abhurite_ore.name=Abhurite Ore
+tile.abernathyite_ore.name=Abernathyite Ore
 
 //Block Of Gems
 tile.ruby_block.name=Block of Ruby
@@ -25,6 +33,34 @@ tile.amethyst_block.name=Block of Amethyst
 tile.phosphophyllite_block.name=Block of Phosphophyllite
 tile.rose_quartz_block.name=Block of Rose Quartz
 tile.smokey_quartz_block.name=Block of Smokey Quartz
+tile.abhurite_block.name=Block of Abhurite
+tile.abernathyite_block.name=Block of Abernathyite
+
+//Abernathyite Tools
+item.abernathyite_sword.name=Abernathyite Sword
+item.abernathyite_pickaxe.name=Abernathyite Pickaxe
+item.abernathyite_shovel.name=Abernathyite Shovel
+item.abernathyite_axe.name=Abernathyite Axe
+item.abernathyite_hoe.name=Abernathyite Hoe
+
+//Abernathyite Armour
+item.abernathyite_helmet.name=Abernathyite Helmet
+item.abernathyite_chestplate.name=Abernathyite Chestplate
+item.abernathyite_leggings.name=Abernathyite Leggings
+item.abernathyite_boots.name=Abernathyite Boots
+
+//Abhurite Tools
+item.abhurite_sword.name=Abhurite Sword
+item.abhurite_pickaxe.name=Abhurite Pickaxe
+item.abhurite_shovel.name=Abhurite Shovel
+item.abhurite_axe.name=Abhurite Axe
+item.abhurite_hoe.name=Abhurite Hoe
+
+//Abhurite Armour
+item.abhurite_helmet.name=Abhurite Helmet
+item.abhurite_chestplate.name=Abhurite Chestplate
+item.abhurite_leggings.name=Abhurite Leggings
+item.abhurite_boots.name=Abhurite Boots
 
 //Smokey Quartz Tools
 item.smokey_quartz_sword.name=Smokey Quartz Sword

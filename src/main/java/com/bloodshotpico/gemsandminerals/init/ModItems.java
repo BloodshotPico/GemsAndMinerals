@@ -35,11 +35,24 @@ public class ModItems
 	public static final ToolMaterial MATERIAL_AMETHYST = EnumHelper.addToolMaterial("material_amethyst", 5, 1200, 7.2F, 2.0F, 22);
 	
 	//Tier 2 Tool Materials   (MaterialName, HarvestLevel, Durability, Efficiency, Damage, Enchantability)
-	public static final ToolMaterial MATERIAL_PHOSPHOPHYLLITE = EnumHelper.addToolMaterial("material_phosphophyllite", 6, 2100, 7.9F, 4.0F, 24);
+	public static final ToolMaterial MATERIAL_PHOSPHOPHYLLITE = EnumHelper.addToolMaterial("material_phosphophyllite", 6, 2100, 7.9F, 6.0F, 24);
 	
 	//Tier 3 Tool Materials   (MaterialName, HarvestLevel, Durability, Efficiency, Damage, Enchantability)
-	public static final ToolMaterial MATERIAL_ROSE_QUARTZ = EnumHelper.addToolMaterial("material_rose_quartz", 7, 3321, 8.0F, 6.0F, 28);
-	public static final ToolMaterial MATERIAL_SMOKEY_QUARTZ = EnumHelper.addToolMaterial("material_smokey_quartz", 7, 3259, 8.4F, 4.0F, 28);
+	public static final ToolMaterial MATERIAL_ROSE_QUARTZ = EnumHelper.addToolMaterial("material_rose_quartz", 7, 3321, 8.0F, 9.0F, 28);
+	public static final ToolMaterial MATERIAL_SMOKEY_QUARTZ = EnumHelper.addToolMaterial("material_smokey_quartz", 7, 3259, 8.4F, 8.0F, 28);
+	
+	//TIER 4 = ALL DUSTS GO IN HERE
+	//Tier 4 Tool Materials   (MaterialName, HarvestLevel, Durability, Efficiency, Damage, Enchantability)
+	public static final ToolMaterial MATERIAL_ABERNATHYITE =  EnumHelper.addToolMaterial("material_abernathyite", 8, 4235, 8.8F, 11.0F, 30);
+	public static final ToolMaterial MATERIAL_ABHURITE = EnumHelper.addToolMaterial("material_abhurite", 8, 4673, 8.5F, 9.2F, 30);
+	
+	//Tier 5 Tool Materials   (MaterialName, HarvestLevel, Durability, Efficiency, Damage, Enchantability)
+	
+	//Tier 6 Tool Materials   (MaterialName, HarvestLevel, Durability, Efficiency, Damage, Enchantability)
+	
+	//Tier 7 Tool Materials   (MaterialName, HarvestLevel, Durability, Efficiency, Damage, Enchantability)
+	
+	//Tier 8 Tool Materials   (MaterialName, HarvestLevel, Durability, Efficiency, Damage, Enchantability)
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	//Tier 1 Armor Materials (Name, TextureName, Durability, ReductionAmounts, Enchantability, SoundOnEquip, Toughness)
@@ -54,14 +67,25 @@ public class ModItems
 	
 	//Tier 2 Armor Materials (Name, TextureName, Durability, ReductionAmounts, Enchantability, SoundOnEquip, Toughness)
 	public static final ArmorMaterial ARMOR_MATERIAL_PHOSPHOPHYLLITE = EnumHelper.addArmorMaterial("armor_material_phosphophyllite", Reference.MOD_ID + ":phosphophyllite", 18,
-			new int[] {6, 10, 14, 6}, 16, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 8.0F);
+			new int[] {6, 10, 12, 6}, 16, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 8.0F);
 	
 	//Tier 3 Armor Materials (Name, TextureName, Durability, ReductionAmounts, Enchantability, SoundOnEquip, Toughness)
 	public static final ArmorMaterial ARMOR_MATERIAL_ROSE_QUARTZ = EnumHelper.addArmorMaterial("armor_material_rose_quartz", Reference.MOD_ID + ":rose_quartz", 14,
-			new int[] {3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0F);
+			new int[] {6, 9, 11, 5}, 19, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 9.0F);
 	public static final ArmorMaterial ARMOR_MATERIAL_SMOKEY_QUARTZ = EnumHelper.addArmorMaterial("armor_material_smokey_quartz", Reference.MOD_ID + ":smokey_quartz", 15,
-			new int[] {3, 7, 9, 4}, 14, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 10.0F);
+			new int[] {8, 11, 13, 8}, 17, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 10.0F);
+	
+	//DUST ARMOURS
+	//Tier 4 Armor Materials (Name, TextureName, Durability, ReductionAmounts, Enchantability, SoundOnEquip, Toughness)
+	public static final ArmorMaterial ARMOR_MATERIAL_ABERNATHYITE = EnumHelper.addArmorMaterial("armor_material_abernathyite", Reference.MOD_ID + ":abernathyite", 18,
+			new int[] {10, 12, 14, 10}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 12.0F);
+	public static final ArmorMaterial ARMOR_MATERIAL_ABHURITE = EnumHelper.addArmorMaterial("armor_material_abhurite", Reference.MOD_ID + ":abhurite", 19,
+			new int[] {12, 13, 15, 12}, 21, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 13.0F);
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	//Dusts
+	public static final Item ABERNATHYITE_DUST = new ItemBase("abernathyite_dust");
+	public static final Item ABHURITE_DUST =  new ItemBase("abhurite_dust");
 	
 	//Gems
 	public static final Item RUBY = new ItemBase("ruby");
@@ -71,10 +95,14 @@ public class ModItems
 	public static final Item PHOSPHOPHYLLITE = new ItemBase("phosphophyllite");
 	public static final Item ROSE_QUARTZ = new ItemBase("rose_quartz");
 	public static final Item SMOKEY_QUARTZ = new ItemBase("smokey_quartz");
+	public static final Item ABHURITE = new ItemBase("abhurite");
+	public static final Item ABERNATHYITE = new ItemBase("abernathyite");
 	
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//Armour
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	///////TIER 1 ARMOUR!!!!/////////////
 	//Ruby Armour
 	public static final Item RUBY_HELMET = new ArmorBase("ruby_helmet", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.HEAD);
 	public static final Item RUBY_CHESTPLATE =new  ArmorBase("ruby_chestplate", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.CHEST);
@@ -98,13 +126,17 @@ public class ModItems
 	public static final Item TOPAZ_CHESTPLATE = new ArmorBase("topaz_chestplate", ARMOR_MATERIAL_TOPAZ, 1, EntityEquipmentSlot.CHEST);
 	public static final Item TOPAZ_LEGGINGS = new ArmorBase("topaz_leggings", ARMOR_MATERIAL_TOPAZ, 2, EntityEquipmentSlot.LEGS);
 	public static final Item TOPAZ_BOOTS = new ArmorBase("topaz_boots", ARMOR_MATERIAL_TOPAZ, 1, EntityEquipmentSlot.FEET);
+	//////////////////////////////////////
 	
+	///////TIER 2 ARMOUR!!!!/////////////
 	//Phosphophyllite Armour
 	public static final Item PHOSPHOPHYLLITE_HELMET = new ArmorBase("phosphophyllite_helmet", ARMOR_MATERIAL_PHOSPHOPHYLLITE, 1, EntityEquipmentSlot.HEAD);
 	public static final Item PHOSPHOPHYLLITE_CHESTPLATE = new ArmorBase("phosphophyllite_chestplate", ARMOR_MATERIAL_PHOSPHOPHYLLITE, 1, EntityEquipmentSlot.CHEST);
 	public static final Item PHOSPHOPHYLLITE_LEGGINGS = new ArmorBase("phosphophyllite_leggings", ARMOR_MATERIAL_PHOSPHOPHYLLITE, 2, EntityEquipmentSlot.LEGS);
 	public static final Item PHOSPHOPHYLLITE_BOOTS = new ArmorBase("phosphophyllite_boots", ARMOR_MATERIAL_PHOSPHOPHYLLITE, 1, EntityEquipmentSlot.FEET);
+	//////////////////////////////////////
 	
+	///////TIER 3 ARMOUR!!!!/////////////
 	//Rose Quartz Armour
 	public static final Item ROSE_QUARTZ_HELMET = new ArmorBase("rose_quartz_helmet", ARMOR_MATERIAL_ROSE_QUARTZ, 1, EntityEquipmentSlot.HEAD);
 	public static final Item ROSE_QUARTZ_CHESTPLATE = new ArmorBase("rose_quartz_chestplate", ARMOR_MATERIAL_ROSE_QUARTZ, 1, EntityEquipmentSlot.CHEST);
@@ -116,11 +148,26 @@ public class ModItems
 	public static final Item SMOKEY_QUARTZ_CHESTPLATE = new ArmorBase("smokey_quartz_chestplate", ARMOR_MATERIAL_SMOKEY_QUARTZ, 1, EntityEquipmentSlot.CHEST);
 	public static final Item SMOKEY_QUARTZ_LEGGINGS = new ArmorBase("smokey_quartz_leggings", ARMOR_MATERIAL_SMOKEY_QUARTZ, 2, EntityEquipmentSlot.LEGS);
 	public static final Item SMOKEY_QUARTZ_BOOTS = new ArmorBase("smokey_quartz_boots", ARMOR_MATERIAL_SMOKEY_QUARTZ, 1, EntityEquipmentSlot.FEET);
+	//////////////////////////////////////
+	
+	///////TIER 4 ARMOUR!!!!/////////////
+	//Abernathyite Armour
+	public static final Item ABERNATHYITE_HELMET = new ArmorBase("abernathyite_helmet", ARMOR_MATERIAL_ABERNATHYITE, 1, EntityEquipmentSlot.HEAD);
+	public static final Item ABERNATHYITE_CHESTPLATE = new ArmorBase("abernathyite_chestplate", ARMOR_MATERIAL_ABERNATHYITE, 1, EntityEquipmentSlot.CHEST);
+	public static final Item ABERNATHYITE_LEGGINGS = new ArmorBase("abernathyite_leggings", ARMOR_MATERIAL_ABERNATHYITE, 2, EntityEquipmentSlot.LEGS);
+	public static final Item ABERNATHYITE_BOOTS = new ArmorBase("abernathyite_boots", ARMOR_MATERIAL_ABERNATHYITE, 1, EntityEquipmentSlot.FEET);
+	
+	//Abhurite Armour
+	public static final Item ABHURITE_HELMET = new ArmorBase("abhurite_helmet", ARMOR_MATERIAL_ABHURITE, 1, EntityEquipmentSlot.HEAD);
+	public static final Item ABHURITE_CHESTPLATE = new ArmorBase("abhurite_chestplate", ARMOR_MATERIAL_ABHURITE, 1, EntityEquipmentSlot.CHEST);
+	public static final Item ABHURITE_LEGGINGS = new ArmorBase("abhurite_leggings", ARMOR_MATERIAL_ABHURITE, 2, EntityEquipmentSlot.LEGS);
+	public static final Item ABHURITE_BOOTS = new ArmorBase("abhurite_boots", ARMOR_MATERIAL_ABHURITE, 1, EntityEquipmentSlot.FEET);
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//TOOLS
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	///////TIER 1 TOOLS!!!!/////////////
 	//RubyTools
 	public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
 	public static final ItemSpade RUBY_SHOVEL = new ToolSpade("ruby_shovel", MATERIAL_RUBY);
@@ -148,14 +195,18 @@ public class ModItems
 	public static final ItemPickaxe AMETHYST_PICKAXE = new ToolPickaxe("amethyst_pickaxe", MATERIAL_AMETHYST);
 	public static final ItemAxe AMETHYST_AXE = new ToolAxe("amethyst_axe", MATERIAL_AMETHYST);
 	public static final ItemHoe AMETHYST_HOE = new ToolHoe("amethyst_hoe", MATERIAL_AMETHYST);
+	//////////////////////////////////////
 	
+	///////TIER 2 TOOLS!!!!/////////////
 	//Phosphophyllite Tools
 	public static final ItemSword PHOSPHOPHYLLITE_SWORD = new ToolSword("phosphophyllite_sword", MATERIAL_PHOSPHOPHYLLITE);
 	public static final ItemSpade PHOSPHOPHYLLITE_SHOVEL = new ToolSpade("phosphophyllite_shovel", MATERIAL_PHOSPHOPHYLLITE);
 	public static final ItemPickaxe PHOSPHOPHYLLITE_PICKAXE = new ToolPickaxe("phosphophyllite_pickaxe", MATERIAL_PHOSPHOPHYLLITE);
 	public static final ItemAxe PHOSPHOPHYLLITE_AXE = new ToolAxe("phosphophyllite_axe", MATERIAL_PHOSPHOPHYLLITE);
 	public static final ItemHoe PHOSPHOPHYLLITE_HOE = new ToolHoe("phosphophyllite_hoe", MATERIAL_PHOSPHOPHYLLITE);
+	//////////////////////////////////////
 	
+	///////TIER 3 TOOLS!!!!/////////////
 	//Rose Quartz Tools
 	public static final ItemSword ROSE_QUARTZ_SWORD = new ToolSword("rose_quartz_sword", MATERIAL_ROSE_QUARTZ);
 	public static final ItemSpade ROSE_QUARTZ_SHOVEL = new ToolSpade("rose_quartz_shovel", MATERIAL_ROSE_QUARTZ);
@@ -169,5 +220,21 @@ public class ModItems
 	public static final ItemPickaxe SMOKEY_QUARTZ_PICKAXE = new ToolPickaxe("smokey_quartz_pickaxe", MATERIAL_SMOKEY_QUARTZ);
 	public static final ItemAxe SMOKEY_QUARTZ_AXE = new ToolAxe("smokey_quartz_axe", MATERIAL_SMOKEY_QUARTZ);
 	public static final ItemHoe SMOKEY_QUARTZ_HOW = new ToolHoe("smokey_quartz_hoe", MATERIAL_SMOKEY_QUARTZ);
+	//////////////////////////////////////
+	
+	///////TIER 4 TOOLS!!!!/////////////
+	//Abernathyite Tools
+	public static final ItemSword ABERNATHYITE_SWORD = new ToolSword("abernathyite_sword", MATERIAL_ABERNATHYITE);
+	public static final ItemSpade ABERNATHYITE_SHOVEL = new ToolSpade("abernathyite_shovel", MATERIAL_ABERNATHYITE);
+	public static final ItemPickaxe ABERNATHYITE_PICKAXE = new ToolPickaxe("abernathyite_pickaxe", MATERIAL_ABERNATHYITE);
+	public static final ItemAxe ABERNATHYITE_AXE = new ToolAxe("abernathyite_axe", MATERIAL_ABERNATHYITE);
+	public static final ItemHoe ABERNATHYITE_HOE = new ToolHoe("abernathyite_hoe", MATERIAL_ABERNATHYITE);
+	
+	//Abhurite Tools
+	public static final ItemSword ABHURITE_SWORD = new ToolSword("abhurite_sword", MATERIAL_ABHURITE);
+	public static final ItemSpade ABHURITE_SHOVEL = new ToolSpade("abhurite_shovel", MATERIAL_ABHURITE);
+	public static final ItemPickaxe ABHURITE_PICKAXE = new ToolPickaxe("abhurite_pickaxe", MATERIAL_ABHURITE);
+	public static final ItemAxe ABHURITE_AXE = new ToolAxe("abhurite_axe", MATERIAL_ABHURITE);
+	public static final ItemHoe ABHURITE_HOE = new ToolHoe("abhurite_hoe", MATERIAL_ABHURITE);
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 }

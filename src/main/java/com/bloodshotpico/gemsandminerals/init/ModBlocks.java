@@ -3,6 +3,10 @@ package com.bloodshotpico.gemsandminerals.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.bloodshotpico.gemsandminerals.blocks.AbernathyiteBlock;
+import com.bloodshotpico.gemsandminerals.blocks.AbernathyiteOre;
+import com.bloodshotpico.gemsandminerals.blocks.AbhuriteBlock;
+import com.bloodshotpico.gemsandminerals.blocks.AbhuriteOre;
 import com.bloodshotpico.gemsandminerals.blocks.AmethystBlock;
 import com.bloodshotpico.gemsandminerals.blocks.AmethystOre;
 import com.bloodshotpico.gemsandminerals.blocks.BlockBase;
@@ -33,7 +37,9 @@ public class ModBlocks
 	public static final Block AMETHYST_ORE = new AmethystOre("amethyst_ore", Material.ROCK);
 	public static final Block PHOSPHOPHYLLITE_ORE = new PhosphophylliteOre("phosphophyllite_ore", Material.ROCK);
 	public static final Block ROSE_QUARTZ_ORE = new RoseQuartzOre("rose_quartz_ore", Material.ROCK);
-	public static final Block SMOKEY_QUARTZ_ORE = new SmokeyQuartzOre("smokey_quartz_ore", Material.IRON);
+	public static final Block SMOKEY_QUARTZ_ORE = new SmokeyQuartzOre("smokey_quartz_ore", Material.ROCK);
+	public static final Block ABHURITE_ORE = new AbhuriteOre("abhurite_ore", Material.ROCK);
+	public static final Block ABERNATHYITE_ORE = new AbernathyiteOre("abernathyite_ore", Material.ROCK);
 	
 	//Gem Blocks
 	public static final Block RUBY_BLOCK = new RubyBlock("ruby_block", Material.IRON);
@@ -43,4 +49,6 @@ public class ModBlocks
 	public static final Block PHOSPHOPHYLLITE_BLOCK = new PhosphophylliteBlock("phosphophyllite_block", Material.IRON);
 	public static final Block ROSE_QUARTZ_BLOCK = new RoseQuartzBlock("rose_quartz_block", Material.IRON);
 	public static final Block SMOKEY_QUARTZ_BLOCK = new SmokeyQuartzBlock("smokey_quartz_block", Material.IRON);
+	public static final Block ABHURITE_BLOCK = new AbhuriteBlock("abhurite_block", Material.IRON);
+	public static final Block ABERNATHYITE_BLOCK = new AbernathyiteBlock("abernathyite_block", Material.IRON);
 }
